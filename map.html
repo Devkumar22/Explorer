@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_924773df91f54300a0a783c0add54671 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_924773df91f54300a0a783c0add54671" ></div>
+        
+</body>
+<script>    
+    
+            var map_924773df91f54300a0a783c0add54671 = L.map(
+                "map_924773df91f54300a0a783c0add54671",
+                {
+                    center: [28.685151275979585, 77.21357111294833],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c433e997126f4863bbbd4084f79e7850 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var marker_526b79b7bfe94d1089fbdd85e20167cc = L.marker(
+                [28.686967849731445, 77.30726623535156],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_5c6feeb85dff4869a03c27678ef9e64b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_526b79b7bfe94d1089fbdd85e20167cc.setIcon(icon_5c6feeb85dff4869a03c27678ef9e64b);
+        
+    
+        var popup_3cb778500bb04e9395db1656b6d65080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4074eb95404040409172db3b2beb6ff3 = $(`<div id="html_4074eb95404040409172db3b2beb6ff3" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_3cb778500bb04e9395db1656b6d65080.setContent(html_4074eb95404040409172db3b2beb6ff3);
+        
+
+        marker_526b79b7bfe94d1089fbdd85e20167cc.bindPopup(popup_3cb778500bb04e9395db1656b6d65080)
+        ;
+
+        
+    
+    
+            var marker_0bfae09278d144649663cd84e8e1049a = L.marker(
+                [28.688264705526457, 77.30730751345713],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_98a14e169da24d11b012bf8ec8693a57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bfae09278d144649663cd84e8e1049a.setIcon(icon_98a14e169da24d11b012bf8ec8693a57);
+        
+    
+        var popup_7564bcb275094cabbd815c5f1b745d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1992747fb6a147ca9765b5ad509f50aa = $(`<div id="html_1992747fb6a147ca9765b5ad509f50aa" style="width: 100.0%; height: 100.0%;">OBH (GTB Hospital)</div>`)[0];
+            popup_7564bcb275094cabbd815c5f1b745d96.setContent(html_1992747fb6a147ca9765b5ad509f50aa);
+        
+
+        marker_0bfae09278d144649663cd84e8e1049a.bindPopup(popup_7564bcb275094cabbd815c5f1b745d96)
+        ;
+
+        
+    
+    
+            var marker_9c551fc8f72d4fa7ab9bb4ce302e8ba8 = L.marker(
+                [28.683549608463835, 77.312594799091],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_01b6f0c8155f4e3786e51be840afe830 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c551fc8f72d4fa7ab9bb4ce302e8ba8.setIcon(icon_01b6f0c8155f4e3786e51be840afe830);
+        
+    
+        var popup_200971dd2678492db0c89130e741643d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11e7a88186c441d682d3c4a0eeb4f408 = $(`<div id="html_11e7a88186c441d682d3c4a0eeb4f408" style="width: 100.0%; height: 100.0%;">UCMS (GTB Hospital)</div>`)[0];
+            popup_200971dd2678492db0c89130e741643d.setContent(html_11e7a88186c441d682d3c4a0eeb4f408);
+        
+
+        marker_9c551fc8f72d4fa7ab9bb4ce302e8ba8.bindPopup(popup_200971dd2678492db0c89130e741643d)
+        ;
+
+        
+    
+    
+            var marker_02fd54bcb5a34656884a5a2fb723489c = L.marker(
+                [28.651402872288557, 77.12992429786689],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_d603a5da957249c4aba93660a30c342f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02fd54bcb5a34656884a5a2fb723489c.setIcon(icon_d603a5da957249c4aba93660a30c342f);
+        
+    
+        var popup_361f6d97f8454f06858c80b01040ce94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23c53834e0b2414b86ff78fe863279ec = $(`<div id="html_23c53834e0b2414b86ff78fe863279ec" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_361f6d97f8454f06858c80b01040ce94.setContent(html_23c53834e0b2414b86ff78fe863279ec);
+        
+
+        marker_02fd54bcb5a34656884a5a2fb723489c.bindPopup(popup_361f6d97f8454f06858c80b01040ce94)
+        ;
+
+        
+    
+    
+            var marker_c339c1acf2b24111b769c57687fcdc93 = L.marker(
+                [28.68573847959419, 77.21129887843472],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_ded3eaae8c4b4de6a17486667cb675f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c339c1acf2b24111b769c57687fcdc93.setIcon(icon_ded3eaae8c4b4de6a17486667cb675f3);
+        
+    
+        var popup_eae9ae26a47e47e59a9241437aa8c136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a573a1f24b8d48cea7769513aa819c85 = $(`<div id="html_a573a1f24b8d48cea7769513aa819c85" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_eae9ae26a47e47e59a9241437aa8c136.setContent(html_a573a1f24b8d48cea7769513aa819c85);
+        
+
+        marker_c339c1acf2b24111b769c57687fcdc93.bindPopup(popup_eae9ae26a47e47e59a9241437aa8c136)
+        ;
+
+        
+    
+    
+            var marker_e3eb6dcc713a4aaaa7ca47e6171828a5 = L.marker(
+                [28.69021440901155, 77.21603170260867],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_bbe912c3a17c440a961676b133f75757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e3eb6dcc713a4aaaa7ca47e6171828a5.setIcon(icon_bbe912c3a17c440a961676b133f75757);
+        
+    
+        var popup_4d591bc7c07a4f89871e5b53273b8936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2708dca2847446a4addcd57e2d4b607a = $(`<div id="html_2708dca2847446a4addcd57e2d4b607a" style="width: 100.0%; height: 100.0%;">University Of Delhi (Vishwavidyala Marg)</div>`)[0];
+            popup_4d591bc7c07a4f89871e5b53273b8936.setContent(html_2708dca2847446a4addcd57e2d4b607a);
+        
+
+        marker_e3eb6dcc713a4aaaa7ca47e6171828a5.bindPopup(popup_4d591bc7c07a4f89871e5b53273b8936)
+        ;
+
+        
+    
+    
+            var marker_86dd141d6ecb4a0aa4c94ff720a3acda = L.marker(
+                [28.68483543395996, 77.2070083618164],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_bfed8ebec19a4ea7963a69f0276040c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_86dd141d6ecb4a0aa4c94ff720a3acda.setIcon(icon_bfed8ebec19a4ea7963a69f0276040c4);
+        
+    
+        var popup_bd3859f3a0ad4ef6901719c12affa049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5287d81e8f374306b3bb15f62092269a = $(`<div id="html_5287d81e8f374306b3bb15f62092269a" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_bd3859f3a0ad4ef6901719c12affa049.setContent(html_5287d81e8f374306b3bb15f62092269a);
+        
+
+        marker_86dd141d6ecb4a0aa4c94ff720a3acda.bindPopup(popup_bd3859f3a0ad4ef6901719c12affa049)
+        ;
+
+        
+    
+    
+            var marker_5292391b93aa40eca64b2768d691e19d = L.marker(
+                [28.690431382563297, 77.21761488264569],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_fc80c76f5a594afd874ffeba1aa396a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5292391b93aa40eca64b2768d691e19d.setIcon(icon_fc80c76f5a594afd874ffeba1aa396a5);
+        
+    
+        var popup_e7901e6a21e043eebec6835f48fe6dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc535ca884e14c46bdba683b2d3ae0c1 = $(`<div id="html_cc535ca884e14c46bdba683b2d3ae0c1" style="width: 100.0%; height: 100.0%;">D S Kothari Hostel (Jubilee Hall Lane , University Of Delhi)</div>`)[0];
+            popup_e7901e6a21e043eebec6835f48fe6dc0.setContent(html_cc535ca884e14c46bdba683b2d3ae0c1);
+        
+
+        marker_5292391b93aa40eca64b2768d691e19d.bindPopup(popup_e7901e6a21e043eebec6835f48fe6dc0)
+        ;
+
+        
+    
+    
+            var marker_0440b8a19d5b487292c6b1bbc7d7a48b = L.marker(
+                [28.69109958270377, 77.21720505438637],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_f109252e53fe48a2acac2fcb7e7fcd6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0440b8a19d5b487292c6b1bbc7d7a48b.setIcon(icon_f109252e53fe48a2acac2fcb7e7fcd6e);
+        
+    
+        var popup_96fc31c0b51f426db038f8827d0923eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63f0646068f4484bb7fc49dde6783290 = $(`<div id="html_63f0646068f4484bb7fc49dde6783290" style="width: 100.0%; height: 100.0%;">New Delhi 110007</div>`)[0];
+            popup_96fc31c0b51f426db038f8827d0923eb.setContent(html_63f0646068f4484bb7fc49dde6783290);
+        
+
+        marker_0440b8a19d5b487292c6b1bbc7d7a48b.bindPopup(popup_96fc31c0b51f426db038f8827d0923eb)
+        ;
+
+        
+    
+    
+            var marker_836a43f3edd24e608797ef81a9711f08 = L.marker(
+                [28.692803, 77.211649],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_bb375e3e7288434aac604cbc2fbacfb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_836a43f3edd24e608797ef81a9711f08.setIcon(icon_bb375e3e7288434aac604cbc2fbacfb1);
+        
+    
+        var popup_12986c76d3234148842f17ce40f85448 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a045fc392ba49fdb52cde885073f097 = $(`<div id="html_4a045fc392ba49fdb52cde885073f097" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_12986c76d3234148842f17ce40f85448.setContent(html_4a045fc392ba49fdb52cde885073f097);
+        
+
+        marker_836a43f3edd24e608797ef81a9711f08.bindPopup(popup_12986c76d3234148842f17ce40f85448)
+        ;
+
+        
+    
+    
+            var marker_3f46aebb39704c1faec39cd5dc6820df = L.marker(
+                [28.68095144753641, 77.22308286617701],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9c6a80114aac4c56aae29422fea87136 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3f46aebb39704c1faec39cd5dc6820df.setIcon(icon_9c6a80114aac4c56aae29422fea87136);
+        
+    
+        var popup_72a87b1c295b4bdd88a8a725293680d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_801f70a3b2104954b87ebb924a1662dd = $(`<div id="html_801f70a3b2104954b87ebb924a1662dd" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_72a87b1c295b4bdd88a8a725293680d9.setContent(html_801f70a3b2104954b87ebb924a1662dd);
+        
+
+        marker_3f46aebb39704c1faec39cd5dc6820df.bindPopup(popup_72a87b1c295b4bdd88a8a725293680d9)
+        ;
+
+        
+    
+    
+            var marker_25662fea210445d5a5067a73ab146114 = L.marker(
+                [28.681859970092773, 77.22407531738281],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_869de127f68b4eb09e44df869d1c40e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_25662fea210445d5a5067a73ab146114.setIcon(icon_869de127f68b4eb09e44df869d1c40e1);
+        
+    
+        var popup_8184ebdecddb4aa193c40eafb93207b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04eead2b745c48be8c49da8808afc5a9 = $(`<div id="html_04eead2b745c48be8c49da8808afc5a9" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_8184ebdecddb4aa193c40eafb93207b1.setContent(html_04eead2b745c48be8c49da8808afc5a9);
+        
+
+        marker_25662fea210445d5a5067a73ab146114.bindPopup(popup_8184ebdecddb4aa193c40eafb93207b1)
+        ;
+
+        
+    
+    
+            var marker_9a929789c8f4401d969e8e47c0791380 = L.marker(
+                [28.68108954960064, 77.22464911051907],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_2c5efc37501d481ca1c0d201fc8e28a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_9a929789c8f4401d969e8e47c0791380.setIcon(icon_2c5efc37501d481ca1c0d201fc8e28a3);
+        
+    
+        var popup_a39be8357e77440b9a065e24426d6120 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba24e64129174633b2c41d339b6f3a26 = $(`<div id="html_ba24e64129174633b2c41d339b6f3a26" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_a39be8357e77440b9a065e24426d6120.setContent(html_ba24e64129174633b2c41d339b6f3a26);
+        
+
+        marker_9a929789c8f4401d969e8e47c0791380.bindPopup(popup_a39be8357e77440b9a065e24426d6120)
+        ;
+
+        
+    
+    
+            var marker_7a61f7fe8a3a45de89072935f182ecd8 = L.marker(
+                [28.682877, 77.200384],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_d0a934322a944600b1de4a591ac2e03b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_7a61f7fe8a3a45de89072935f182ecd8.setIcon(icon_d0a934322a944600b1de4a591ac2e03b);
+        
+    
+        var popup_7d8e49d816b0493d98b4dd89a4e51b94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ccc52b9b1184597882651b7bce6e034 = $(`<div id="html_1ccc52b9b1184597882651b7bce6e034" style="width: 100.0%; height: 100.0%;">2/79 (Roop Nagar)</div>`)[0];
+            popup_7d8e49d816b0493d98b4dd89a4e51b94.setContent(html_1ccc52b9b1184597882651b7bce6e034);
+        
+
+        marker_7a61f7fe8a3a45de89072935f182ecd8.bindPopup(popup_7d8e49d816b0493d98b4dd89a4e51b94)
+        ;
+
+        
+    
+    
+            var marker_f8164257a0bb4221b14c362f574c5656 = L.marker(
+                [28.68600125221232, 77.19293283033954],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_cbf733b9d6704a4aa18a8e6460360803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f8164257a0bb4221b14c362f574c5656.setIcon(icon_cbf733b9d6704a4aa18a8e6460360803);
+        
+    
+        var popup_50604059121b4982bc2fbec04fee6f61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e72260841cd6484cbb090d2716617680 = $(`<div id="html_e72260841cd6484cbb090d2716617680" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_50604059121b4982bc2fbec04fee6f61.setContent(html_e72260841cd6484cbb090d2716617680);
+        
+
+        marker_f8164257a0bb4221b14c362f574c5656.bindPopup(popup_50604059121b4982bc2fbec04fee6f61)
+        ;
+
+        
+    
+    
+            var marker_ec26107f9aad4434850f9726bd3acfe4 = L.marker(
+                [28.706784578929003, 77.21436428794505],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_e6761445c3bb43cf98b74cecf5e8defc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ec26107f9aad4434850f9726bd3acfe4.setIcon(icon_e6761445c3bb43cf98b74cecf5e8defc);
+        
+    
+        var popup_d0c1bc0b9c0f4bea980573ac3f18bca9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a89ac30caeb346e9917b545b48c0db24 = $(`<div id="html_a89ac30caeb346e9917b545b48c0db24" style="width: 100.0%; height: 100.0%;">Delhi University</div>`)[0];
+            popup_d0c1bc0b9c0f4bea980573ac3f18bca9.setContent(html_a89ac30caeb346e9917b545b48c0db24);
+        
+
+        marker_ec26107f9aad4434850f9726bd3acfe4.bindPopup(popup_d0c1bc0b9c0f4bea980573ac3f18bca9)
+        ;
+
+        
+    
+    
+            var marker_022b44ab523c4eaca4175dfcf9483edf = L.marker(
+                [28.679921724564068, 77.2049825369801],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9536832833944f498e212e2f970a90a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_022b44ab523c4eaca4175dfcf9483edf.setIcon(icon_9536832833944f498e212e2f970a90a8);
+        
+    
+        var popup_b610158ad8a84ba8879eb1fa51b75290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f62dc98e8cf341f7ae62f90299a6e82c = $(`<div id="html_f62dc98e8cf341f7ae62f90299a6e82c" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_b610158ad8a84ba8879eb1fa51b75290.setContent(html_f62dc98e8cf341f7ae62f90299a6e82c);
+        
+
+        marker_022b44ab523c4eaca4175dfcf9483edf.bindPopup(popup_b610158ad8a84ba8879eb1fa51b75290)
+        ;
+
+        
+    
+    
+            var marker_0ac6bc420c9845c3be938ba35e676a3d = L.marker(
+                [28.62573322868225, 77.21040618930084],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_a94bca94e9384d7397a17d78d5823d96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ac6bc420c9845c3be938ba35e676a3d.setIcon(icon_a94bca94e9384d7397a17d78d5823d96);
+        
+    
+        var popup_2c0439881bc546b489aaca987a680d77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de4e296578946119b0d31a77b241f8f = $(`<div id="html_7de4e296578946119b0d31a77b241f8f" style="width: 100.0%; height: 100.0%;">Ashok Rd</div>`)[0];
+            popup_2c0439881bc546b489aaca987a680d77.setContent(html_7de4e296578946119b0d31a77b241f8f);
+        
+
+        marker_0ac6bc420c9845c3be938ba35e676a3d.bindPopup(popup_2c0439881bc546b489aaca987a680d77)
+        ;
+
+        
+    
+    
+            var marker_72a61a5717384b59b3e8c9bc567c9d01 = L.marker(
+                [28.646118, 77.215922],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_3a5fd27dcf5a43cca5fa260de0b7a5bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_72a61a5717384b59b3e8c9bc567c9d01.setIcon(icon_3a5fd27dcf5a43cca5fa260de0b7a5bd);
+        
+    
+        var popup_9971e15fe82543fda1576897e3670296 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab21c2fcccfa40fb8d9eb638e1879295 = $(`<div id="html_ab21c2fcccfa40fb8d9eb638e1879295" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_9971e15fe82543fda1576897e3670296.setContent(html_ab21c2fcccfa40fb8d9eb638e1879295);
+        
+
+        marker_72a61a5717384b59b3e8c9bc567c9d01.bindPopup(popup_9971e15fe82543fda1576897e3670296)
+        ;
+
+        
+    
+    
+            var marker_5e2512c26a1d47ff81649df6e91baf38 = L.marker(
+                [28.648935632466127, 77.19135493553684],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_2f567fa0e771482481ea1064a1b7b425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e2512c26a1d47ff81649df6e91baf38.setIcon(icon_2f567fa0e771482481ea1064a1b7b425);
+        
+    
+        var popup_d4906b5fe3384ecea8a84aeaae82d761 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ead1600c68485ba657f86fd1e85628 = $(`<div id="html_e5ead1600c68485ba657f86fd1e85628" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_d4906b5fe3384ecea8a84aeaae82d761.setContent(html_e5ead1600c68485ba657f86fd1e85628);
+        
+
+        marker_5e2512c26a1d47ff81649df6e91baf38.bindPopup(popup_d4906b5fe3384ecea8a84aeaae82d761)
+        ;
+
+        
+    
+    
+            var marker_77407d5d3c994eaa864d03d3ccbd3864 = L.marker(
+                [28.640728, 77.211735],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9c53afb9caca45589a517cfae8fc96ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77407d5d3c994eaa864d03d3ccbd3864.setIcon(icon_9c53afb9caca45589a517cfae8fc96ec);
+        
+    
+        var popup_8a887693c63f447ab17b450043430fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a86cc3f7434e499291f38ff4dd18319d = $(`<div id="html_a86cc3f7434e499291f38ff4dd18319d" style="width: 100.0%; height: 100.0%;">New Delhi 110055</div>`)[0];
+            popup_8a887693c63f447ab17b450043430fa2.setContent(html_a86cc3f7434e499291f38ff4dd18319d);
+        
+
+        marker_77407d5d3c994eaa864d03d3ccbd3864.bindPopup(popup_8a887693c63f447ab17b450043430fa2)
+        ;
+
+        
+    
+    
+            var marker_95d5612014594a438d73a0f954f03e8a = L.marker(
+                [28.64067, 77.211136],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_d962021b050347aa8e7090dba91e8fd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_95d5612014594a438d73a0f954f03e8a.setIcon(icon_d962021b050347aa8e7090dba91e8fd6);
+        
+    
+        var popup_51b0589c03ea4cc3a1bbfd2c29544d87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2cbf94f93034de3a602af9ae703aa44 = $(`<div id="html_a2cbf94f93034de3a602af9ae703aa44" style="width: 100.0%; height: 100.0%;">New Delhi 110055</div>`)[0];
+            popup_51b0589c03ea4cc3a1bbfd2c29544d87.setContent(html_a2cbf94f93034de3a602af9ae703aa44);
+        
+
+        marker_95d5612014594a438d73a0f954f03e8a.bindPopup(popup_51b0589c03ea4cc3a1bbfd2c29544d87)
+        ;
+
+        
+    
+    
+            var marker_c29b407896d64f17a030d9a0c13ef7b9 = L.marker(
+                [28.640588, 77.209355],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_825adb3e98fe435a8f0ebe48c6c8ca9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c29b407896d64f17a030d9a0c13ef7b9.setIcon(icon_825adb3e98fe435a8f0ebe48c6c8ca9c);
+        
+    
+        var popup_123088fb87994100b3bf7db761fe6deb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec69beac2dd742b5b79694546d796643 = $(`<div id="html_ec69beac2dd742b5b79694546d796643" style="width: 100.0%; height: 100.0%;">1663-64 Ground Fl, Ajmere Gate Rd, Chuna Mandi</div>`)[0];
+            popup_123088fb87994100b3bf7db761fe6deb.setContent(html_ec69beac2dd742b5b79694546d796643);
+        
+
+        marker_c29b407896d64f17a030d9a0c13ef7b9.bindPopup(popup_123088fb87994100b3bf7db761fe6deb)
+        ;
+
+        
+    
+    
+            var marker_84963ff6efbf430b9ae6b14c748eae8e = L.marker(
+                [28.627369, 77.197515],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9678286e84834f03b1c7129facc60c98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84963ff6efbf430b9ae6b14c748eae8e.setIcon(icon_9678286e84834f03b1c7129facc60c98);
+        
+    
+        var popup_c2ff440c88534d4086c13ce5103b5c79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3157780f03f4f1885c60e1331a5896e = $(`<div id="html_d3157780f03f4f1885c60e1331a5896e" style="width: 100.0%; height: 100.0%;">Main Bazaar</div>`)[0];
+            popup_c2ff440c88534d4086c13ce5103b5c79.setContent(html_d3157780f03f4f1885c60e1331a5896e);
+        
+
+        marker_84963ff6efbf430b9ae6b14c748eae8e.bindPopup(popup_c2ff440c88534d4086c13ce5103b5c79)
+        ;
+
+        
+    
+    
+            var marker_8514151e1d22422f87727e4880599471 = L.marker(
+                [28.626535432023307, 77.19999098520464],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9d54ab12614942b5ac79e0fd2529284b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8514151e1d22422f87727e4880599471.setIcon(icon_9d54ab12614942b5ac79e0fd2529284b);
+        
+    
+        var popup_1ddc8883ca074fe19b02cf09eede72d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3cf40ea68cb4b948570c7184b047465 = $(`<div id="html_d3cf40ea68cb4b948570c7184b047465" style="width: 100.0%; height: 100.0%;">Dr R M L Hospital</div>`)[0];
+            popup_1ddc8883ca074fe19b02cf09eede72d8.setContent(html_d3cf40ea68cb4b948570c7184b047465);
+        
+
+        marker_8514151e1d22422f87727e4880599471.bindPopup(popup_1ddc8883ca074fe19b02cf09eede72d8)
+        ;
+
+        
+    
+    
+            var marker_6a7f936a0b234ffbb2f07d9e1396dde3 = L.marker(
+                [28.62065493341091, 77.22566843032837],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_0479c5b365334a16a83a6e19f82bd1ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a7f936a0b234ffbb2f07d9e1396dde3.setIcon(icon_0479c5b365334a16a83a6e19f82bd1ca);
+        
+    
+        var popup_55a47267214647f7ad3e4f5bfbba4e24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58ecb9fefd8d49d58f436ebdc0852c9a = $(`<div id="html_58ecb9fefd8d49d58f436ebdc0852c9a" style="width: 100.0%; height: 100.0%;">K.G Marg</div>`)[0];
+            popup_55a47267214647f7ad3e4f5bfbba4e24.setContent(html_58ecb9fefd8d49d58f436ebdc0852c9a);
+        
+
+        marker_6a7f936a0b234ffbb2f07d9e1396dde3.bindPopup(popup_55a47267214647f7ad3e4f5bfbba4e24)
+        ;
+
+        
+    
+    
+            var marker_d07aa85212524efdba02e57ec0c719d4 = L.marker(
+                [28.602335291306456, 77.18998478921122],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_7bccf22d217e4cfa8c47abec90978fce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d07aa85212524efdba02e57ec0c719d4.setIcon(icon_7bccf22d217e4cfa8c47abec90978fce);
+        
+    
+        var popup_52bc047d63854797a5f0191c99e25fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8801231c4a024bdc9b0e4738c9687239 = $(`<div id="html_8801231c4a024bdc9b0e4738c9687239" style="width: 100.0%; height: 100.0%;">Nyaya Marg, Chanakyapuri</div>`)[0];
+            popup_52bc047d63854797a5f0191c99e25fdc.setContent(html_8801231c4a024bdc9b0e4738c9687239);
+        
+
+        marker_d07aa85212524efdba02e57ec0c719d4.bindPopup(popup_52bc047d63854797a5f0191c99e25fdc)
+        ;
+
+        
+    
+    
+            var marker_f8cb76a70ee94b8991f7772dd051fb0c = L.marker(
+                [28.63423055699267, 77.23956388001646],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_60aadd196d4a48ee98790ed50d903528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f8cb76a70ee94b8991f7772dd051fb0c.setIcon(icon_60aadd196d4a48ee98790ed50d903528);
+        
+    
+        var popup_90113991aa5545ef883ec8ecfd58cd8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebdd82c08d984d818064fec79cf2ff64 = $(`<div id="html_ebdd82c08d984d818064fec79cf2ff64" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_90113991aa5545ef883ec8ecfd58cd8e.setContent(html_ebdd82c08d984d818064fec79cf2ff64);
+        
+
+        marker_f8cb76a70ee94b8991f7772dd051fb0c.bindPopup(popup_90113991aa5545ef883ec8ecfd58cd8e)
+        ;
+
+        
+    
+    
+            var marker_51b3bd2f11bc4914beb284458ffb4988 = L.marker(
+                [28.640779020966296, 77.23870664834976],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_8b1248d4e2c94772aec05f2627d15351 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_51b3bd2f11bc4914beb284458ffb4988.setIcon(icon_8b1248d4e2c94772aec05f2627d15351);
+        
+    
+        var popup_b1c351cba0684715a3af7234ca22a4ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47a72b253810418ebf77aca3495193df = $(`<div id="html_47a72b253810418ebf77aca3495193df" style="width: 100.0%; height: 100.0%;">4/23-B, Asaf Ali Road (Daryaganj)</div>`)[0];
+            popup_b1c351cba0684715a3af7234ca22a4ad.setContent(html_47a72b253810418ebf77aca3495193df);
+        
+
+        marker_51b3bd2f11bc4914beb284458ffb4988.bindPopup(popup_b1c351cba0684715a3af7234ca22a4ad)
+        ;
+
+        
+    
+    
+            var marker_7dced9359868410293aa963437c01d44 = L.marker(
+                [28.640796944408404, 77.23896570534309],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_de374c6b98b74e98b30dc03349981730 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7dced9359868410293aa963437c01d44.setIcon(icon_de374c6b98b74e98b30dc03349981730);
+        
+    
+        var popup_77d2a39439f8448285f4da3b3c3df263 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fce45ff7311f47c8b4d7ef93513d7791 = $(`<div id="html_fce45ff7311f47c8b4d7ef93513d7791" style="width: 100.0%; height: 100.0%;">4/23 B, Asaf Ali Road, Daryaganj</div>`)[0];
+            popup_77d2a39439f8448285f4da3b3c3df263.setContent(html_fce45ff7311f47c8b4d7ef93513d7791);
+        
+
+        marker_7dced9359868410293aa963437c01d44.bindPopup(popup_77d2a39439f8448285f4da3b3c3df263)
+        ;
+
+        
+    
+    
+            var marker_4009ef603101421389399de312a02d84 = L.marker(
+                [28.63467186427182, 77.23982769223514],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_0dae5d0acc814ffc9394075dcf51b1fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4009ef603101421389399de312a02d84.setIcon(icon_0dae5d0acc814ffc9394075dcf51b1fe);
+        
+    
+        var popup_b2e2901fca6d4fcbaae0e94330c50889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d3fa78a73cc4b34992315cadf889a0d = $(`<div id="html_0d3fa78a73cc4b34992315cadf889a0d" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_b2e2901fca6d4fcbaae0e94330c50889.setContent(html_0d3fa78a73cc4b34992315cadf889a0d);
+        
+
+        marker_4009ef603101421389399de312a02d84.bindPopup(popup_b2e2901fca6d4fcbaae0e94330c50889)
+        ;
+
+        
+    
+    
+            var marker_1a93b34e4e674ad99b26a663c881e686 = L.marker(
+                [28.63404533012061, 77.2403777668772],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_271a037598c74f18b2e71f6be2c61019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1a93b34e4e674ad99b26a663c881e686.setIcon(icon_271a037598c74f18b2e71f6be2c61019);
+        
+    
+        var popup_686627eb98fa40e2a17b53415d8df7fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1bc58856a71410b83a960d86e2d1a80 = $(`<div id="html_f1bc58856a71410b83a960d86e2d1a80" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_686627eb98fa40e2a17b53415d8df7fe.setContent(html_f1bc58856a71410b83a960d86e2d1a80);
+        
+
+        marker_1a93b34e4e674ad99b26a663c881e686.bindPopup(popup_686627eb98fa40e2a17b53415d8df7fe)
+        ;
+
+        
+    
+    
+            var marker_30e2d0ed23b349379804c2614c439d9f = L.marker(
+                [28.629017, 77.27466],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_42ae9c5511844abab182f082ac834e3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_30e2d0ed23b349379804c2614c439d9f.setIcon(icon_42ae9c5511844abab182f082ac834e3a);
+        
+    
+        var popup_a90e721554614d938b270c403e26d427 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3e7d5356684b408964435950157632 = $(`<div id="html_fb3e7d5356684b408964435950157632" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_a90e721554614d938b270c403e26d427.setContent(html_fb3e7d5356684b408964435950157632);
+        
+
+        marker_30e2d0ed23b349379804c2614c439d9f.bindPopup(popup_a90e721554614d938b270c403e26d427)
+        ;
+
+        
+    
+    
+            var marker_54fc7f37a31d4abd96ffb315e820d819 = L.marker(
+                [28.60876889198828, 77.23208427429199],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_389a8200d2444e6e803cd83fa04d4658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_54fc7f37a31d4abd96ffb315e820d819.setIcon(icon_389a8200d2444e6e803cd83fa04d4658);
+        
+    
+        var popup_8e650ff78b6b45408e89b2ccad11b2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17bc52e36d5410ab9ffdce6069b8a87 = $(`<div id="html_e17bc52e36d5410ab9ffdce6069b8a87" style="width: 100.0%; height: 100.0%;">India Gate C-Hexagon</div>`)[0];
+            popup_8e650ff78b6b45408e89b2ccad11b2e6.setContent(html_e17bc52e36d5410ab9ffdce6069b8a87);
+        
+
+        marker_54fc7f37a31d4abd96ffb315e820d819.bindPopup(popup_8e650ff78b6b45408e89b2ccad11b2e6)
+        ;
+
+        
+    
+    
+            var marker_2ae9343da77a411ea77bdd33fba90fd0 = L.marker(
+                [28.63064050574695, 77.28488038734824],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_e32970c8a9594004b15c7a6f06d31cfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2ae9343da77a411ea77bdd33fba90fd0.setIcon(icon_e32970c8a9594004b15c7a6f06d31cfc);
+        
+    
+        var popup_8235dd4f73384392b52f9b96099ab6c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8dd2d5b182e43f3b9a478211c84f63c = $(`<div id="html_e8dd2d5b182e43f3b9a478211c84f63c" style="width: 100.0%; height: 100.0%;">Sharma Hostel (Vikas Marg)</div>`)[0];
+            popup_8235dd4f73384392b52f9b96099ab6c1.setContent(html_e8dd2d5b182e43f3b9a478211c84f63c);
+        
+
+        marker_2ae9343da77a411ea77bdd33fba90fd0.bindPopup(popup_8235dd4f73384392b52f9b96099ab6c1)
+        ;
+
+        
+    
+    
+            var marker_19184d4a43b345fa88e85da62185e822 = L.marker(
+                [28.686967849731445, 77.30726623535156],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_31399b97fdab4b14977ff71d4e3dfa95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19184d4a43b345fa88e85da62185e822.setIcon(icon_31399b97fdab4b14977ff71d4e3dfa95);
+        
+    
+        var popup_e2e813237b0b4ca68fbafab751e9f588 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d3e0a3df27849f885a0dd75ae33fe54 = $(`<div id="html_7d3e0a3df27849f885a0dd75ae33fe54" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_e2e813237b0b4ca68fbafab751e9f588.setContent(html_7d3e0a3df27849f885a0dd75ae33fe54);
+        
+
+        marker_19184d4a43b345fa88e85da62185e822.bindPopup(popup_e2e813237b0b4ca68fbafab751e9f588)
+        ;
+
+        
+    
+    
+            var marker_f8182d0d533a44b3bccc4bc849255636 = L.marker(
+                [28.688264705526457, 77.30730751345713],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_0575d8b21d934c17aa810d3f8da5a18a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8182d0d533a44b3bccc4bc849255636.setIcon(icon_0575d8b21d934c17aa810d3f8da5a18a);
+        
+    
+        var popup_9e06a54d39784a3fb1c39fa983646dfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d2a43268ac1476eb2d73b8e3540a52e = $(`<div id="html_5d2a43268ac1476eb2d73b8e3540a52e" style="width: 100.0%; height: 100.0%;">OBH (GTB Hospital)</div>`)[0];
+            popup_9e06a54d39784a3fb1c39fa983646dfe.setContent(html_5d2a43268ac1476eb2d73b8e3540a52e);
+        
+
+        marker_f8182d0d533a44b3bccc4bc849255636.bindPopup(popup_9e06a54d39784a3fb1c39fa983646dfe)
+        ;
+
+        
+    
+    
+            var marker_e68baa1c2eda41c2b308c96e1e4e9067 = L.marker(
+                [28.683549608463835, 77.312594799091],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_1fc5343ab7764ca0b81ea190d4b2f318 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e68baa1c2eda41c2b308c96e1e4e9067.setIcon(icon_1fc5343ab7764ca0b81ea190d4b2f318);
+        
+    
+        var popup_0f67149f00fe4cdd9c75e312ed334d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c73a051aa58c40cf8974bc41c0100938 = $(`<div id="html_c73a051aa58c40cf8974bc41c0100938" style="width: 100.0%; height: 100.0%;">UCMS (GTB Hospital)</div>`)[0];
+            popup_0f67149f00fe4cdd9c75e312ed334d38.setContent(html_c73a051aa58c40cf8974bc41c0100938);
+        
+
+        marker_e68baa1c2eda41c2b308c96e1e4e9067.bindPopup(popup_0f67149f00fe4cdd9c75e312ed334d38)
+        ;
+
+        
+    
+    
+            var marker_71e4085fb93940f29a9ec9144b9f8169 = L.marker(
+                [28.651402872288557, 77.12992429786689],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_3533c190ffd94c4493b927176773b3c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71e4085fb93940f29a9ec9144b9f8169.setIcon(icon_3533c190ffd94c4493b927176773b3c3);
+        
+    
+        var popup_fd3646fb4d2746c3908aa06602d3844a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adc5a25648804ad9b058104dc9c70aae = $(`<div id="html_adc5a25648804ad9b058104dc9c70aae" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_fd3646fb4d2746c3908aa06602d3844a.setContent(html_adc5a25648804ad9b058104dc9c70aae);
+        
+
+        marker_71e4085fb93940f29a9ec9144b9f8169.bindPopup(popup_fd3646fb4d2746c3908aa06602d3844a)
+        ;
+
+        
+    
+    
+            var marker_8706d60ad27d401f85d30d398846222d = L.marker(
+                [28.68573847959419, 77.21129887843472],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_de89fd6c79b94d66bc38a81524ee7588 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8706d60ad27d401f85d30d398846222d.setIcon(icon_de89fd6c79b94d66bc38a81524ee7588);
+        
+    
+        var popup_525b587fdcdb427cb4ca5baa5c5ea0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_947d1a33714442238893b8d8faeff59c = $(`<div id="html_947d1a33714442238893b8d8faeff59c" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_525b587fdcdb427cb4ca5baa5c5ea0b3.setContent(html_947d1a33714442238893b8d8faeff59c);
+        
+
+        marker_8706d60ad27d401f85d30d398846222d.bindPopup(popup_525b587fdcdb427cb4ca5baa5c5ea0b3)
+        ;
+
+        
+    
+    
+            var marker_e962f5d7cc514d23a54e70b5734b3f34 = L.marker(
+                [28.69021440901155, 77.21603170260867],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9a4d47f57479402aa25145123d958106 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e962f5d7cc514d23a54e70b5734b3f34.setIcon(icon_9a4d47f57479402aa25145123d958106);
+        
+    
+        var popup_0f4f893851b64f89a7166995de5f1cfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50b3cdca39eb4b609df56080f303d458 = $(`<div id="html_50b3cdca39eb4b609df56080f303d458" style="width: 100.0%; height: 100.0%;">University Of Delhi (Vishwavidyala Marg)</div>`)[0];
+            popup_0f4f893851b64f89a7166995de5f1cfd.setContent(html_50b3cdca39eb4b609df56080f303d458);
+        
+
+        marker_e962f5d7cc514d23a54e70b5734b3f34.bindPopup(popup_0f4f893851b64f89a7166995de5f1cfd)
+        ;
+
+        
+    
+    
+            var marker_3232c36b71a54aa99aaf80a952dbe536 = L.marker(
+                [28.68483543395996, 77.2070083618164],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_eb6ca4c660d14be3a78e60f389228570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3232c36b71a54aa99aaf80a952dbe536.setIcon(icon_eb6ca4c660d14be3a78e60f389228570);
+        
+    
+        var popup_191afad2550a499ca542a7560ff21f18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cca86287a3d48fab0914acadf2fbff2 = $(`<div id="html_7cca86287a3d48fab0914acadf2fbff2" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_191afad2550a499ca542a7560ff21f18.setContent(html_7cca86287a3d48fab0914acadf2fbff2);
+        
+
+        marker_3232c36b71a54aa99aaf80a952dbe536.bindPopup(popup_191afad2550a499ca542a7560ff21f18)
+        ;
+
+        
+    
+    
+            var marker_17139eb5c083431cac4ba53b87a86d28 = L.marker(
+                [28.690431382563297, 77.21761488264569],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_2706e480f0024356b33c2ef5470dc895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_17139eb5c083431cac4ba53b87a86d28.setIcon(icon_2706e480f0024356b33c2ef5470dc895);
+        
+    
+        var popup_960f64109a754832b8a37d51087acdf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3fee0c618d34e9293b2a32060236c81 = $(`<div id="html_c3fee0c618d34e9293b2a32060236c81" style="width: 100.0%; height: 100.0%;">D S Kothari Hostel (Jubilee Hall Lane , University Of Delhi)</div>`)[0];
+            popup_960f64109a754832b8a37d51087acdf9.setContent(html_c3fee0c618d34e9293b2a32060236c81);
+        
+
+        marker_17139eb5c083431cac4ba53b87a86d28.bindPopup(popup_960f64109a754832b8a37d51087acdf9)
+        ;
+
+        
+    
+    
+            var marker_7e63446de1d441958cdaf1f82f1da71c = L.marker(
+                [28.69109958270377, 77.21720505438637],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_b2e6ffa3428a428c871b24190d335b2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7e63446de1d441958cdaf1f82f1da71c.setIcon(icon_b2e6ffa3428a428c871b24190d335b2b);
+        
+    
+        var popup_4c050528b9d147ac91113e86f7aae026 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b40bdb4804242b988b7ae3d0a6432b7 = $(`<div id="html_1b40bdb4804242b988b7ae3d0a6432b7" style="width: 100.0%; height: 100.0%;">New Delhi 110007</div>`)[0];
+            popup_4c050528b9d147ac91113e86f7aae026.setContent(html_1b40bdb4804242b988b7ae3d0a6432b7);
+        
+
+        marker_7e63446de1d441958cdaf1f82f1da71c.bindPopup(popup_4c050528b9d147ac91113e86f7aae026)
+        ;
+
+        
+    
+    
+            var marker_84fa7a60f07346039758d5450d98d0a4 = L.marker(
+                [28.692803, 77.211649],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_d9baa51821eb4142b127adf47e00a617 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_84fa7a60f07346039758d5450d98d0a4.setIcon(icon_d9baa51821eb4142b127adf47e00a617);
+        
+    
+        var popup_f7e1f0b93d7e4756a35c18ff411f2ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f8cdf2797624ed59d4f5c4eeed5d553 = $(`<div id="html_0f8cdf2797624ed59d4f5c4eeed5d553" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_f7e1f0b93d7e4756a35c18ff411f2ab9.setContent(html_0f8cdf2797624ed59d4f5c4eeed5d553);
+        
+
+        marker_84fa7a60f07346039758d5450d98d0a4.bindPopup(popup_f7e1f0b93d7e4756a35c18ff411f2ab9)
+        ;
+
+        
+    
+    
+            var marker_198b9ac1bfbc493a8ab3bc76ce60ddea = L.marker(
+                [28.68095144753641, 77.22308286617701],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_7a1ada3967f246ffbed736bd62608e82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_198b9ac1bfbc493a8ab3bc76ce60ddea.setIcon(icon_7a1ada3967f246ffbed736bd62608e82);
+        
+    
+        var popup_97b80eaff3d84ccfaf97798b91dd05ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f453083caef341fcacf7f6a6c1c6ce12 = $(`<div id="html_f453083caef341fcacf7f6a6c1c6ce12" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_97b80eaff3d84ccfaf97798b91dd05ff.setContent(html_f453083caef341fcacf7f6a6c1c6ce12);
+        
+
+        marker_198b9ac1bfbc493a8ab3bc76ce60ddea.bindPopup(popup_97b80eaff3d84ccfaf97798b91dd05ff)
+        ;
+
+        
+    
+    
+            var marker_cd24b9e021fb4820a485f97b34f93bee = L.marker(
+                [28.681859970092773, 77.22407531738281],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_dbe829acb3e343bb89599f036aef7039 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cd24b9e021fb4820a485f97b34f93bee.setIcon(icon_dbe829acb3e343bb89599f036aef7039);
+        
+    
+        var popup_54e895dabf86495f8e79f7573a0b3e48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_231db1fa9bf24abc946c5ea1fffd962b = $(`<div id="html_231db1fa9bf24abc946c5ea1fffd962b" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_54e895dabf86495f8e79f7573a0b3e48.setContent(html_231db1fa9bf24abc946c5ea1fffd962b);
+        
+
+        marker_cd24b9e021fb4820a485f97b34f93bee.bindPopup(popup_54e895dabf86495f8e79f7573a0b3e48)
+        ;
+
+        
+    
+    
+            var marker_db46a46d2d6c463d9c78bc12dfc3d6f7 = L.marker(
+                [28.68108954960064, 77.22464911051907],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_b33f6e0294484a49bae85bec06666e04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_db46a46d2d6c463d9c78bc12dfc3d6f7.setIcon(icon_b33f6e0294484a49bae85bec06666e04);
+        
+    
+        var popup_40cdf82a9a174184bb01fc48de24d6c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c45a818a787d4bc88a1a169dcce51486 = $(`<div id="html_c45a818a787d4bc88a1a169dcce51486" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_40cdf82a9a174184bb01fc48de24d6c4.setContent(html_c45a818a787d4bc88a1a169dcce51486);
+        
+
+        marker_db46a46d2d6c463d9c78bc12dfc3d6f7.bindPopup(popup_40cdf82a9a174184bb01fc48de24d6c4)
+        ;
+
+        
+    
+    
+            var marker_6855441d1df447a6b49c0dd34fbe763a = L.marker(
+                [28.682877, 77.200384],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_4af331673ce74e5db9afad252696f86a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6855441d1df447a6b49c0dd34fbe763a.setIcon(icon_4af331673ce74e5db9afad252696f86a);
+        
+    
+        var popup_f7b1743eee22407f825956c61b59d21d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27602d5dbcbe4bec92a8feb108cd1135 = $(`<div id="html_27602d5dbcbe4bec92a8feb108cd1135" style="width: 100.0%; height: 100.0%;">2/79 (Roop Nagar)</div>`)[0];
+            popup_f7b1743eee22407f825956c61b59d21d.setContent(html_27602d5dbcbe4bec92a8feb108cd1135);
+        
+
+        marker_6855441d1df447a6b49c0dd34fbe763a.bindPopup(popup_f7b1743eee22407f825956c61b59d21d)
+        ;
+
+        
+    
+    
+            var marker_b5c69e6a8a5c49aeb1a768aeec76b18c = L.marker(
+                [28.68600125221232, 77.19293283033954],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_6887477fb0534746a92999681c57dfa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b5c69e6a8a5c49aeb1a768aeec76b18c.setIcon(icon_6887477fb0534746a92999681c57dfa7);
+        
+    
+        var popup_b3f6cc2fe8264974859179928a6b48bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81aac0a3613a455fa1ae637152cea89d = $(`<div id="html_81aac0a3613a455fa1ae637152cea89d" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_b3f6cc2fe8264974859179928a6b48bc.setContent(html_81aac0a3613a455fa1ae637152cea89d);
+        
+
+        marker_b5c69e6a8a5c49aeb1a768aeec76b18c.bindPopup(popup_b3f6cc2fe8264974859179928a6b48bc)
+        ;
+
+        
+    
+    
+            var marker_ec42b56669804e2a80e88c43f22ac352 = L.marker(
+                [28.706784578929003, 77.21436428794505],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_79ddbb8f3d2141ca84924417e9bc8c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ec42b56669804e2a80e88c43f22ac352.setIcon(icon_79ddbb8f3d2141ca84924417e9bc8c7c);
+        
+    
+        var popup_1df00b15d80f4efd97ca88d40ac4488c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45a24e624b7c49ae9e5f8e2f622263dc = $(`<div id="html_45a24e624b7c49ae9e5f8e2f622263dc" style="width: 100.0%; height: 100.0%;">Delhi University</div>`)[0];
+            popup_1df00b15d80f4efd97ca88d40ac4488c.setContent(html_45a24e624b7c49ae9e5f8e2f622263dc);
+        
+
+        marker_ec42b56669804e2a80e88c43f22ac352.bindPopup(popup_1df00b15d80f4efd97ca88d40ac4488c)
+        ;
+
+        
+    
+    
+            var marker_90379d42189241f3a42140fc1f62f6bf = L.marker(
+                [28.679921724564068, 77.2049825369801],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_81031de47a49449babdede9c95b2873d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_90379d42189241f3a42140fc1f62f6bf.setIcon(icon_81031de47a49449babdede9c95b2873d);
+        
+    
+        var popup_5a1067bdedbf44ac9c2f4915754f69a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510fe9429af24c2a9f2ba24c521c8ae4 = $(`<div id="html_510fe9429af24c2a9f2ba24c521c8ae4" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_5a1067bdedbf44ac9c2f4915754f69a7.setContent(html_510fe9429af24c2a9f2ba24c521c8ae4);
+        
+
+        marker_90379d42189241f3a42140fc1f62f6bf.bindPopup(popup_5a1067bdedbf44ac9c2f4915754f69a7)
+        ;
+
+        
+    
+    
+            var marker_0d0aca0e62ff4108af143be69e79caec = L.marker(
+                [28.62573322868225, 77.21040618930084],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_1d80d3b30461471daebd74c15f3de4be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d0aca0e62ff4108af143be69e79caec.setIcon(icon_1d80d3b30461471daebd74c15f3de4be);
+        
+    
+        var popup_eab33f9999e048c39ef3d107ffdb3891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba185d12de00489fae1479d9b7eb921a = $(`<div id="html_ba185d12de00489fae1479d9b7eb921a" style="width: 100.0%; height: 100.0%;">Ashok Rd</div>`)[0];
+            popup_eab33f9999e048c39ef3d107ffdb3891.setContent(html_ba185d12de00489fae1479d9b7eb921a);
+        
+
+        marker_0d0aca0e62ff4108af143be69e79caec.bindPopup(popup_eab33f9999e048c39ef3d107ffdb3891)
+        ;
+
+        
+    
+    
+            var marker_c729e65d519447e5ab71be2baf864c67 = L.marker(
+                [28.646118, 77.215922],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_b1adc8931bcc4176a16bef2505f9eddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c729e65d519447e5ab71be2baf864c67.setIcon(icon_b1adc8931bcc4176a16bef2505f9eddc);
+        
+    
+        var popup_6afb97594af141bcb1967ddbe0c26e8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b8c857701246f190447b3c7647d542 = $(`<div id="html_81b8c857701246f190447b3c7647d542" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_6afb97594af141bcb1967ddbe0c26e8f.setContent(html_81b8c857701246f190447b3c7647d542);
+        
+
+        marker_c729e65d519447e5ab71be2baf864c67.bindPopup(popup_6afb97594af141bcb1967ddbe0c26e8f)
+        ;
+
+        
+    
+    
+            var marker_1939b46b7bc64631b46125c7ac3423c7 = L.marker(
+                [28.648935632466127, 77.19135493553684],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_391abe7c18bb4b9ab4143bb4d385ee49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1939b46b7bc64631b46125c7ac3423c7.setIcon(icon_391abe7c18bb4b9ab4143bb4d385ee49);
+        
+    
+        var popup_b641673a95cf4579bbab14f47d1e2d28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f72deba541648099c7c6f9119372dcb = $(`<div id="html_9f72deba541648099c7c6f9119372dcb" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_b641673a95cf4579bbab14f47d1e2d28.setContent(html_9f72deba541648099c7c6f9119372dcb);
+        
+
+        marker_1939b46b7bc64631b46125c7ac3423c7.bindPopup(popup_b641673a95cf4579bbab14f47d1e2d28)
+        ;
+
+        
+    
+    
+            var marker_f7e0001a23824f3bbcba9a7d5d7082dc = L.marker(
+                [28.640728, 77.211735],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_b7a1b0006aa249c896355ecbd9080b79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7e0001a23824f3bbcba9a7d5d7082dc.setIcon(icon_b7a1b0006aa249c896355ecbd9080b79);
+        
+    
+        var popup_f068da5a23da459d8518e70ab06093e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d7acf831dc43a1afa80e80029a257e = $(`<div id="html_67d7acf831dc43a1afa80e80029a257e" style="width: 100.0%; height: 100.0%;">New Delhi 110055</div>`)[0];
+            popup_f068da5a23da459d8518e70ab06093e5.setContent(html_67d7acf831dc43a1afa80e80029a257e);
+        
+
+        marker_f7e0001a23824f3bbcba9a7d5d7082dc.bindPopup(popup_f068da5a23da459d8518e70ab06093e5)
+        ;
+
+        
+    
+    
+            var marker_1db0a8ccd2464c6cafb7ff99cd93f241 = L.marker(
+                [28.64067, 77.211136],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_448351a2dd7e4a18a4c2af031c5d9f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1db0a8ccd2464c6cafb7ff99cd93f241.setIcon(icon_448351a2dd7e4a18a4c2af031c5d9f91);
+        
+    
+        var popup_2a749e7a32a34dcb9648a677b5044407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9564ac7f41ba4a37990634f3e555e773 = $(`<div id="html_9564ac7f41ba4a37990634f3e555e773" style="width: 100.0%; height: 100.0%;">New Delhi 110055</div>`)[0];
+            popup_2a749e7a32a34dcb9648a677b5044407.setContent(html_9564ac7f41ba4a37990634f3e555e773);
+        
+
+        marker_1db0a8ccd2464c6cafb7ff99cd93f241.bindPopup(popup_2a749e7a32a34dcb9648a677b5044407)
+        ;
+
+        
+    
+    
+            var marker_cc42eb344ef24abd9554362f35df1d18 = L.marker(
+                [28.640588, 77.209355],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_2df1b129114d48f38d338d86288d6c86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc42eb344ef24abd9554362f35df1d18.setIcon(icon_2df1b129114d48f38d338d86288d6c86);
+        
+    
+        var popup_64d0aab171ff468fa9e7d7f33270641f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f4f8c488bdd44cd8b849c9e999c11f0 = $(`<div id="html_8f4f8c488bdd44cd8b849c9e999c11f0" style="width: 100.0%; height: 100.0%;">1663-64 Ground Fl, Ajmere Gate Rd, Chuna Mandi</div>`)[0];
+            popup_64d0aab171ff468fa9e7d7f33270641f.setContent(html_8f4f8c488bdd44cd8b849c9e999c11f0);
+        
+
+        marker_cc42eb344ef24abd9554362f35df1d18.bindPopup(popup_64d0aab171ff468fa9e7d7f33270641f)
+        ;
+
+        
+    
+    
+            var marker_d9881501d157487ca87dd2e1b4c198a3 = L.marker(
+                [28.627369, 77.197515],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_b4aaf5f0ba4e40cc80b75894b156d436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9881501d157487ca87dd2e1b4c198a3.setIcon(icon_b4aaf5f0ba4e40cc80b75894b156d436);
+        
+    
+        var popup_e0569bf8bb4a44cfb86833d55935d300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2931f6e0a2a8447697fbf9f844c2befe = $(`<div id="html_2931f6e0a2a8447697fbf9f844c2befe" style="width: 100.0%; height: 100.0%;">Main Bazaar</div>`)[0];
+            popup_e0569bf8bb4a44cfb86833d55935d300.setContent(html_2931f6e0a2a8447697fbf9f844c2befe);
+        
+
+        marker_d9881501d157487ca87dd2e1b4c198a3.bindPopup(popup_e0569bf8bb4a44cfb86833d55935d300)
+        ;
+
+        
+    
+    
+            var marker_214c78e0fd9c4fe5a7a94650188be677 = L.marker(
+                [28.626535432023307, 77.19999098520464],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_a79fb9fac89a4c67a8d368f65b10b7c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_214c78e0fd9c4fe5a7a94650188be677.setIcon(icon_a79fb9fac89a4c67a8d368f65b10b7c7);
+        
+    
+        var popup_a6f57721185b414092ff4745f602d526 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1b534fcc56c4007b031f0fdaa0efe3c = $(`<div id="html_d1b534fcc56c4007b031f0fdaa0efe3c" style="width: 100.0%; height: 100.0%;">Dr R M L Hospital</div>`)[0];
+            popup_a6f57721185b414092ff4745f602d526.setContent(html_d1b534fcc56c4007b031f0fdaa0efe3c);
+        
+
+        marker_214c78e0fd9c4fe5a7a94650188be677.bindPopup(popup_a6f57721185b414092ff4745f602d526)
+        ;
+
+        
+    
+    
+            var marker_9270b25438cc4162beb6aba083335ff2 = L.marker(
+                [28.62065493341091, 77.22566843032837],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_1dcf32f8ad544616ad8841b30419bfd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9270b25438cc4162beb6aba083335ff2.setIcon(icon_1dcf32f8ad544616ad8841b30419bfd4);
+        
+    
+        var popup_5bf0b702630f406680333695b4962f27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5bef38f99374f2f97a80cc3d4a5bfb9 = $(`<div id="html_e5bef38f99374f2f97a80cc3d4a5bfb9" style="width: 100.0%; height: 100.0%;">K.G Marg</div>`)[0];
+            popup_5bf0b702630f406680333695b4962f27.setContent(html_e5bef38f99374f2f97a80cc3d4a5bfb9);
+        
+
+        marker_9270b25438cc4162beb6aba083335ff2.bindPopup(popup_5bf0b702630f406680333695b4962f27)
+        ;
+
+        
+    
+    
+            var marker_432d5d4eb9f14927a02dc55ffcfe70bb = L.marker(
+                [28.602335291306456, 77.18998478921122],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_4062a52673374040bcefae2f56d2cac4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_432d5d4eb9f14927a02dc55ffcfe70bb.setIcon(icon_4062a52673374040bcefae2f56d2cac4);
+        
+    
+        var popup_cdfd8a3c864546e7a45ac560cc42002f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1891c5ce97464bbd95720bb7dafc45fe = $(`<div id="html_1891c5ce97464bbd95720bb7dafc45fe" style="width: 100.0%; height: 100.0%;">Nyaya Marg, Chanakyapuri</div>`)[0];
+            popup_cdfd8a3c864546e7a45ac560cc42002f.setContent(html_1891c5ce97464bbd95720bb7dafc45fe);
+        
+
+        marker_432d5d4eb9f14927a02dc55ffcfe70bb.bindPopup(popup_cdfd8a3c864546e7a45ac560cc42002f)
+        ;
+
+        
+    
+    
+            var marker_eaadf22ab5114402a0ca1f5518c7533d = L.marker(
+                [28.63423055699267, 77.23956388001646],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_ad9fb2bb4331483da02aade72dfbcf69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_eaadf22ab5114402a0ca1f5518c7533d.setIcon(icon_ad9fb2bb4331483da02aade72dfbcf69);
+        
+    
+        var popup_50aad826d00c4cfcaec4a55c4499cd36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0e550acefd4428b9aa977247f18c3bd = $(`<div id="html_e0e550acefd4428b9aa977247f18c3bd" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_50aad826d00c4cfcaec4a55c4499cd36.setContent(html_e0e550acefd4428b9aa977247f18c3bd);
+        
+
+        marker_eaadf22ab5114402a0ca1f5518c7533d.bindPopup(popup_50aad826d00c4cfcaec4a55c4499cd36)
+        ;
+
+        
+    
+    
+            var marker_80af2599f327456786ca7dd03b763c87 = L.marker(
+                [28.640779020966296, 77.23870664834976],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_9b2417061dfb431fb12e640e22df2cdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_80af2599f327456786ca7dd03b763c87.setIcon(icon_9b2417061dfb431fb12e640e22df2cdf);
+        
+    
+        var popup_193b1f3b4ab54551b48e99f68d670d02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ac6319f93b1461abf0cb4c4ddbfd90f = $(`<div id="html_4ac6319f93b1461abf0cb4c4ddbfd90f" style="width: 100.0%; height: 100.0%;">4/23-B, Asaf Ali Road (Daryaganj)</div>`)[0];
+            popup_193b1f3b4ab54551b48e99f68d670d02.setContent(html_4ac6319f93b1461abf0cb4c4ddbfd90f);
+        
+
+        marker_80af2599f327456786ca7dd03b763c87.bindPopup(popup_193b1f3b4ab54551b48e99f68d670d02)
+        ;
+
+        
+    
+    
+            var marker_f10dcd989d32406687f7f1a4792be1a5 = L.marker(
+                [28.640796944408404, 77.23896570534309],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_02c91132dae74720b0617b32269cae9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f10dcd989d32406687f7f1a4792be1a5.setIcon(icon_02c91132dae74720b0617b32269cae9c);
+        
+    
+        var popup_97bcb314346a455e9611da2fc5ff7e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_381bc04c7c2e47b3877bf98bebffadae = $(`<div id="html_381bc04c7c2e47b3877bf98bebffadae" style="width: 100.0%; height: 100.0%;">4/23 B, Asaf Ali Road, Daryaganj</div>`)[0];
+            popup_97bcb314346a455e9611da2fc5ff7e6c.setContent(html_381bc04c7c2e47b3877bf98bebffadae);
+        
+
+        marker_f10dcd989d32406687f7f1a4792be1a5.bindPopup(popup_97bcb314346a455e9611da2fc5ff7e6c)
+        ;
+
+        
+    
+    
+            var marker_0b180752d3324f8bae938e2e93eb8827 = L.marker(
+                [28.63467186427182, 77.23982769223514],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_11ec91cb109f4aafac99dfd9d18b0c69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0b180752d3324f8bae938e2e93eb8827.setIcon(icon_11ec91cb109f4aafac99dfd9d18b0c69);
+        
+    
+        var popup_7ee212ef7df24655b7272727ce9b6126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd57de6b523740439bbfa321ad3b5997 = $(`<div id="html_dd57de6b523740439bbfa321ad3b5997" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_7ee212ef7df24655b7272727ce9b6126.setContent(html_dd57de6b523740439bbfa321ad3b5997);
+        
+
+        marker_0b180752d3324f8bae938e2e93eb8827.bindPopup(popup_7ee212ef7df24655b7272727ce9b6126)
+        ;
+
+        
+    
+    
+            var marker_210c797a214b4237af58ced544575d1c = L.marker(
+                [28.63404533012061, 77.2403777668772],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_4a590cf944c74d359928676e629a576f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_210c797a214b4237af58ced544575d1c.setIcon(icon_4a590cf944c74d359928676e629a576f);
+        
+    
+        var popup_50962ed639624d3096567b1849e587da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5839e7a19d4a23addf3b6f0e283492 = $(`<div id="html_3b5839e7a19d4a23addf3b6f0e283492" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_50962ed639624d3096567b1849e587da.setContent(html_3b5839e7a19d4a23addf3b6f0e283492);
+        
+
+        marker_210c797a214b4237af58ced544575d1c.bindPopup(popup_50962ed639624d3096567b1849e587da)
+        ;
+
+        
+    
+    
+            var marker_a29aa7c9d51447f698e2adc2d7bd9286 = L.marker(
+                [28.629017, 77.27466],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_12a986de55d642afab7f94069835ec4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a29aa7c9d51447f698e2adc2d7bd9286.setIcon(icon_12a986de55d642afab7f94069835ec4c);
+        
+    
+        var popup_9863f99fc2e54e41b2df28d21770019d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cffb5c48ce6a4d9d92f58ce1a0aa1640 = $(`<div id="html_cffb5c48ce6a4d9d92f58ce1a0aa1640" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+            popup_9863f99fc2e54e41b2df28d21770019d.setContent(html_cffb5c48ce6a4d9d92f58ce1a0aa1640);
+        
+
+        marker_a29aa7c9d51447f698e2adc2d7bd9286.bindPopup(popup_9863f99fc2e54e41b2df28d21770019d)
+        ;
+
+        
+    
+    
+            var marker_4a4ec3dac6184b8cba1ad71cbcd09e29 = L.marker(
+                [28.60876889198828, 77.23208427429199],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_f3d71dc2a0d1421f92058fe01aa4aedd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4a4ec3dac6184b8cba1ad71cbcd09e29.setIcon(icon_f3d71dc2a0d1421f92058fe01aa4aedd);
+        
+    
+        var popup_60b603dfb192414188b4dceb4c08db55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e37d141a274e3c919148f15b9f5085 = $(`<div id="html_f4e37d141a274e3c919148f15b9f5085" style="width: 100.0%; height: 100.0%;">India Gate C-Hexagon</div>`)[0];
+            popup_60b603dfb192414188b4dceb4c08db55.setContent(html_f4e37d141a274e3c919148f15b9f5085);
+        
+
+        marker_4a4ec3dac6184b8cba1ad71cbcd09e29.bindPopup(popup_60b603dfb192414188b4dceb4c08db55)
+        ;
+
+        
+    
+    
+            var marker_ae9d7d8812ee49ab9209a8fba196a565 = L.marker(
+                [28.63064050574695, 77.28488038734824],
+                {}
+            ).addTo(map_924773df91f54300a0a783c0add54671);
+        
+    
+            var icon_ba8032cbd2e847619c6963ffb0b95d4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_ae9d7d8812ee49ab9209a8fba196a565.setIcon(icon_ba8032cbd2e847619c6963ffb0b95d4f);
+        
+    
+        var popup_7520235f96cc4e7388f7def13539b406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5988fa04f20640f6869be25704767165 = $(`<div id="html_5988fa04f20640f6869be25704767165" style="width: 100.0%; height: 100.0%;">Sharma Hostel (Vikas Marg)</div>`)[0];
+            popup_7520235f96cc4e7388f7def13539b406.setContent(html_5988fa04f20640f6869be25704767165);
+        
+
+        marker_ae9d7d8812ee49ab9209a8fba196a565.bindPopup(popup_7520235f96cc4e7388f7def13539b406)
+        ;
+
+        
+    
+</script>
